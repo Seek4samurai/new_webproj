@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  position: sticky;
+  background-color: rgb(221, 221, 221);
+  background-blend-mode: darken;
+  /* background-blend-mode: darken; */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  font-weight: lighter;
+  color: rgb(29, 29, 29);
+}
+
+.nav-list li {
+  padding: 0 25px;
+}
+
+.background {
+  background: rgb(221, 221, 221) url(/new_webproj/img/lasagna.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.head_text {
+  /* min-height: 90vh; */
+  height: 93vh;
+  padding-left: 14vh;
+}
+
+.head_text h1 {
+  display: block;
+  padding-top: 30vh;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  font-size: 30px;
+  color: rgb(29, 29, 29);
+}
+
+.btn {
+  background-color: rgb(29, 29, 29);
+  border: rgb(29, 29, 29) solid 8px;
+  border-radius: 30px;
+  color: rgb(221, 221, 221);
+}
