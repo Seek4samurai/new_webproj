@@ -40,8 +40,9 @@
 }
 
 .head_text h1 {
+  display: flex;
   display: block;
-  padding-top: 30vh;
+  padding-top: 36vh;
   padding-bottom: 10px;
   font-weight: lighter;
   font-size: 30px;
@@ -51,6 +52,18 @@
 .btn {
   background-color: rgb(29, 29, 29);
   border: rgb(29, 29, 29) solid 8px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: rgb(221, 221, 221);
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  color: rgb(126, 126, 126);
+}
+
+#clock {
+  color: rgb(29, 29, 29);
+  display: flex;
+  padding-top: 50px;
+  font-size: 80px;
 }
