@@ -4,6 +4,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  background-color: #dddddd;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: column;
@@ -31,12 +35,13 @@
   background: rgb(221, 221, 221) url(/new_webproj/img/lasagna.jpg);
   background-size: cover;
   background-blend-mode: darken;
+  height: 100vh;
+  border-radius: 10% 10% 30% 10%;
 }
 
 .head_text {
-  /* min-height: 90vh; */
-  height: 93vh;
-  padding-left: 14vh;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .head_text h1 {
@@ -66,4 +71,30 @@
   display: flex;
   padding-top: 50px;
   font-size: 80px;
+}
+
+.section_2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.paras {
+  color: rgb(29, 29, 29);
+  line-height: 46px;
+  padding: 0 25px;
+}
+
+.para_heading {
+  color: rgb(29, 29, 29);
+  font-size: 25px;
+}
+
+.para_img img {
+  padding: 50px 0;
+  border-radius: 9%;
 }
