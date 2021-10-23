@@ -32,7 +32,7 @@ body {
 }
 
 .background {
-  background: rgb(221, 221, 221) url(/new_webproj/img/lasagna.jpg);
+  background: url(/img/lasagna.jpg);
   background-size: cover;
   background-blend-mode: darken;
   height: 100vh;
@@ -83,6 +83,15 @@ body {
   text-align: center;
 }
 
+.section_3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
 .paras {
   color: rgb(29, 29, 29);
   line-height: 46px;
@@ -97,4 +106,10 @@ body {
 .para_img img {
   padding: 50px 0;
   border-radius: 9%;
+}
+
+.para_list {
+  list-style: none;
+  text-align: left;
+  line-height: 35px;
 }
