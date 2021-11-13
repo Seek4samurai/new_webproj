@@ -1,6 +1,5 @@
 # new_webproj
- responsive proj
-
+non responsive static website
 Deployed at - https://byfoodies.netlify.app/
 
 Images might a while to load depending on your internet speed 
